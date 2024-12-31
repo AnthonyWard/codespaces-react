@@ -1,3 +1,30 @@
+/* format the table and make it pretty */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #e0e0e0;
+}
+
+
 .App {
   text-align: center;
 }
